@@ -1,1 +1,9 @@
-This study aims to investigate the socio-economic factors influencing the Cancer mortality rate in the US using multiple regression models to help discover socio-economic factor that has an higher influence.
+This study aims to investigate the socio-economic factors influencing the Cancer mortality rate in the US using multiple regression models to help discover socio-economic factor that has an higher influence.</br>
+# **Workflow** </br>
+- Data Collection: Utilized a cancer CSV dataset containing data from over 3000 US counties. The parameters include County, population, death rate, incidence rate etc.</br>
+- Exploratory Data Analysis: Performed exploratory data analysis on the dataset to understand its structure, patterns, and distributions. This step helps in identifying initial trends and insights.</br>
+- Correlation Analysis: Utilized a correlation matrix to assess the relationships between independent variables. This helps in identifying potential predictors that might have a strong influence on the target variable (cancer-related death rates).</br>
+- Outlier Removal: To enhance the prediction accuracy of the model, outliers were removed from the dataset. Outliers can have a significant impact on the performance of regression models.</br>
+- Model Verification: Verified the data against the predictions made by the linear regression model. This step helps in assessing the model's initial performance</br>
+- Model Building: A stepwise regression approach was utilized to build multiple linear regression models. This approach involves iteratively adding or removing predictors to find the best combination of variables that explain the variance in the target variable. </br>
+- Model Evaluation: Among the various models explored, the second model was identified as the most suitable one, which included an estimation of each predictor variable's coefficient, statistical tests of significance, measures of model fit, and diagnostic plots to evaluate the model's performance and underlying assumptions.
