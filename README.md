@@ -1,0 +1,1 @@
+This study aims to investigate the socio-economic factors influencing the Cancer mortality rate in the US using multiple regression models to help discover socio-economic factor that has an higher influence.
